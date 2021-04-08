@@ -14,7 +14,60 @@ html , body {
 
 @media only screen and (min-width: 1000px) {
     .navbar-brand{
-        padding-right: 25rem;
+        margin-right: 25rem;
         font-family: var(--important-family);
+        font-weight: bold;
+        font-style: oblique;
     }
+}
+
+/* Navbar design */
+
+.nav-item{
+    font-family: var(--important-family);
+    font-weight: bold;
+}
+
+/* Hero Text Design */
+
+.hero-cover .display-5{
+    font-family: var(--important-family);
+    font-size: 2.5rem;
+    text-decoration: underline silver;
+    font-style: oblique;
+}
+
+.hero-cover .lead{
+    font-family: var(--text-important-family);
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+/* Changed Background Color of the buttons. */
+
+
+/*First Button */
+
+.btn-primary{
+    background: black;
+    border: none;
+    font-weight: bold;
+    font-family: var(--btn-family);
+}
+
+.btn-primary:hover{
+    background: black;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+/* Second Button */
+
+.btn-outline-secondary{
+    color: black;
+    border: solid 1px grey;
+    font-family: var(--btn-family);
+    font-weight: bold;
 }
