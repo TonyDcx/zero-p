@@ -1,3 +1,3 @@
 # zero-p
- 
-Check the latest Updates
+
+Zero-P Version 1.0.0
