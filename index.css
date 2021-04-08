@@ -1,3 +1,20 @@
+/* Import Fonts / Variables */
+
+@import url(fonts.css);
+
+@import url(variables.css);
+
+/* Css Starting Code */
+
 html , body {
     margin: 0;
+}
+
+/* Centering the .nav-link links for Pc/Tablets */
+
+@media only screen and (min-width: 1000px) {
+    .navbar-brand{
+        padding-right: 25rem;
+        font-family: var(--important-family);
+    }
 }

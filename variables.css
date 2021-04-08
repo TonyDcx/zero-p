@@ -1,0 +1,11 @@
+:root{
+    --important-family : 'Titillium Web', sans-serif;
+
+    --text-important-family : 'Titillium Web', sans-serif;
+}
+
+/* 
+
+--important-family - Font for titles and link // 300 light
+
+--text-important-family - Font for text holders and others // 200 extra light
