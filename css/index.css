@@ -1,102 +1,27 @@
-/* Import Fonts / Variables */
+/* Fonts / Variables Import */
 
 @import url(fonts.css);
 
 @import url(variables.css);
 
-/*
-    To Do -->   Blog Post Implementation and Design
-*/
+/* HTML / BODY Rules */
 
-/* Css Starting Code */
-
-html , body {
+html , body{
     margin: 0;
 }
 
-/* Centering the .nav-link links for Pc/Tablets */
+/* Navbar Pre-Design */
 
-@media only screen and (min-width: 1000px) {
-    .navbar-brand{
-        margin-right: 25rem;
-        font-family: var(--important-family);
-        font-weight: bold;
-        font-style: oblique;
-    }
+li{
+    list-style-type: none;
 }
 
-/* Navbar design */
+/* Blog Pre-Design */
 
-.nav-item{
-    font-family: var(--important-family);
-    font-weight: bold;
-}
-
-/* Hero Transition */
-
-.trans{
-    animation: fadeIn 2s;
-}
-
-    @keyframes fadeIn {
-        from{
-            opacity: 0;
-        }
-
-        to{
-            opacity: 1;
-        }
-    }
-/* Hero Text Design */
-
-.hero-cover .display-5{
-    font-family: var(--important-family);
-    font-size: 2.5rem;
-    text-decoration: underline silver;
-    font-style: oblique;
-}
-
-.hero-cover .lead{
-    font-family: var(--text-important-family);
+.blog .text-blog{
+    font-family: var(--main-font);
     font-size: 1.5rem;
-    font-style: oblique;
     font-weight: bold;
-}
-
-/* Changed Background Color of the buttons. */
-
-
-/*First Button */
-
-.btn-primary{
-    background: black;
-    border: none;
-    font-weight: bold;
-    font-family: var(--btn-family);
-}
-
-.btn-primary:hover{
-    background: black;
-    border: none;
-    box-shadow: none;
-    font-weight: bold;
-}
-
-/* Second Button */
-
-.btn-outline-secondary{
-    color: black;
-    border: solid 1px grey;
-    font-family: var(--btn-family);
-    font-weight: bold;
-}
-
-/* Blog Design */
-
-.h-100 h2{
     text-decoration: underline;
-}
-
-.h-100 p{
-    text-decoration: underline;
+    text-align: center;
 }

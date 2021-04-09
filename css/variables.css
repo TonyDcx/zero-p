@@ -1,17 +1,3 @@
 :root{
-    --important-family : 'Titillium Web', sans-serif;
-
-    --text-important-family : 'Roboto Condensed', sans-serif;
-
-    --btn-family : 'Roboto Slab', serif;
+    --main-font : 'Open Sans', sans-serif;
 }
-
-/* 
-
---important-family - Font for titles and link // 300 light
-
---text-important-family - Font for text holders and others // 300 light 
-
---btn-family - Font for buttons // 300 light
-
-*/

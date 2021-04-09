@@ -8,73 +8,39 @@
 
 <!-- CSS and Bootstrap -->
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bulma.min.css">
+
+<link rel="stylesheet" href="css/tailwind.css">
 
 <link rel="stylesheet" href="css/index.css">
 
 </head>
 <body>
-    
-<!-- 
-    To do : Blog Post On Brand Link
--->
 
-<!-- Navbar Bootstrap -->
-
-  <div class="whole-nav">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" onclick="pressShowCover()">Project Zero . </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Updates</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<nav>
+  <div>
+      <ul class="navbar space-x-5 font-mono flex justify-center">
+        <a href=""><li class="brand place-content-center underline">Home</li></a>
+        <a href=""><li class="simple place-content-center hover:underline">Updates</li></a>
+        <a href=""><li class="simple place-content-center hover:underline">GitHub</li></a>
+      </ul>
+    </div>
   </div>
+</nav>
 
-<!-- Hero Cover Bootstrap Changed -->
-
-<div class="hero-cover trans" id="hero-cover">
-    <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold">Project Zero . </h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Project Zero is my first project site , made to help me learn and practice with the new stuff that I learn.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3" onclick="btnBlog()">Blog .</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">News & Changes .</button>
-          </div>
-        </div>
-      </div>
-</div> 
-
-<!-- Blog Post Hero btn-primary -->
-
-<div class="blog-post trans">
-    <div class="row align-items-md-stretch">
-        <div class="col-md-6">
-          <div class="h-100 p-5 text-white bg-dark rounded-3">
-            <h2>Change the background</h2>
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-            <button class="btn btn-outline-light" type="button">Example button</button>
-          </div>
-        </div>
-      </div>
+<div class="blog">
+  <p class="text-blog">The Project Zero Update 1.0.2 Brings Tons Of New Implementations . </p>
+  <div class="images flex justify-center">
+    <img src="https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png" alt="Javascript" class="transformw-30 h-56 mr-28">
+    <img src="https://miro.medium.com/max/632/1*5QD8DKhOjRe-gcYjozlLNQ.png" alt="tailwind" class="transform w-30 h-56 ml-28">
+  </div>
 </div>
+
+
+
 
 <script src="js/index.js"></script>
 
 </body>
 </html>
+
