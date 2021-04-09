@@ -47,7 +47,6 @@ html , body {
             opacity: 1;
         }
     }
-
 /* Hero Text Design */
 
 .hero-cover .display-5{
@@ -90,4 +89,14 @@ html , body {
     border: solid 1px grey;
     font-family: var(--btn-family);
     font-weight: bold;
+}
+
+/* Blog Design */
+
+.h-100 h2{
+    text-decoration: underline;
+}
+
+.h-100 p{
+    text-decoration: underline;
 }
