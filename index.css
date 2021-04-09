@@ -4,6 +4,10 @@
 
 @import url(variables.css);
 
+/*
+    To Do -->   Blog Post Implementation and Design
+*/
+
 /* Css Starting Code */
 
 html , body {
@@ -27,6 +31,22 @@ html , body {
     font-family: var(--important-family);
     font-weight: bold;
 }
+
+/* Hero Transition */
+
+.trans{
+    animation: fadeIn 2s;
+}
+
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+
+        to{
+            opacity: 1;
+        }
+    }
 
 /* Hero Text Design */
 
