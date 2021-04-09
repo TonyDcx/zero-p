@@ -17,3 +17,13 @@ Changed JQuery In JavaScript
 Added animations on transitions
 
 Added functions with Javascript
+
+--Zero-P Version 1.0.2 (9.04.2021)--
+
+Restarted Project
+
+Implemented Tailwind
+
+Implemented Bulma
+
+Implementing a original new friendly mobile-first U.I.
