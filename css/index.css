@@ -12,16 +12,73 @@ html , body{
 
 /* Navbar Pre-Design */
 
-li{
-    list-style-type: none;
+.link-f{
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+    color: white;
 }
 
-/* Blog Pre-Design */
+/* Hero Pre-Design */
 
-.blog .text-blog{
-    font-family: var(--main-font);
-    font-size: 1.5rem;
-    font-weight: bold;
+.cover-title{
+    font-family: var(--second-font);
+    font-size: 2rem;
     text-decoration: underline;
+    color: white;
+}
+
+.cover-text{
+    font-family: var(--second-font);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.p-z-o-s{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+/* Swipe Design */
+
+.text{
+    color: black;
+    font-family: var(--second-font);
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.box span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Text Box Pre-Design*/
+
+.t-b-1-f{
     text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--hand-font);
+    font-weight: 300;
+}
+
+.trans{
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
 }

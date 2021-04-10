@@ -27,3 +27,11 @@ Implemented Tailwind
 Implemented Bulma
 
 Implementing a original new friendly mobile-first U.I.
+
+--Zero-P Version 1.0.3 (10.04.2021)--
+
+Made A new Interface Mobile First
+
+Functions added
+
+See the code for changes 

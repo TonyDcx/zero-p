@@ -11,7 +11,7 @@
 
 <!-- CSS and Bootstrap -->
 
-<link rel="stylesheet" href="css/bulma.min.css">
+<!-- <link rel="stylesheet" href="css/bulma.min.css"> -->
 
 <link rel="stylesheet" href="css/tailwind.css">
 
@@ -22,31 +22,57 @@
 
 <!-- Navbar -->
 
-<nav>
-  <div>
-      <ul class="navbar space-x-5 font-mono flex justify-center">
-        <a href=""><li class="brand place-content-center underline">Home</li></a>
-        <a href=""><li class="simple place-content-center hover:underline">Updates</li></a>
-        <a href=""><li class="simple place-content-center hover:underline">GitHub</li></a>
-      </ul>
-    </div>
+<nav class="navigation ">
+  <div class="nav">
+    <ul class="nav-links flex justify-center bg-gradient-to-r from-red-500 to-blue-400">
+      <a href="#"><li class="link-f home mr-6 hover:underline">Home</li></a>
+      <a href="#"><li class="link-f mr-6 hover:underline">About Us</li></a>
+      <a href="#"><li class="link-f mr-6 hover:underline">Contact</li></a>
+    </ul>
   </div>
 </nav>
 
-<!-- Blog Post-->
+<!-- Hero Cover -->
 
-<div class="blog">
-  <p class="text-blog">The Project Zero Update 1.0.2 Brings Tons Of New Implementations . </p>
-  <div class="images flex justify-center">
-    <img src="https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png" alt="Javascript" class="transformw-30 h-56 mr-28">
-    <img src="https://miro.medium.com/max/632/1*5QD8DKhOjRe-gcYjozlLNQ.png" alt="tailwind" class="transform w-30 h-56 ml-28">
+<header class="hero pt-5 bg-gradient-to-r from-red-500 to-blue-400">
+
+  <div class="cover-main">
+    <h2 class="cover-title text-center">Project Zero . </h2>
+    <h4 class='cover-text mt-4 text-center'>Hello and Welcome to <strong class="p-z-o-s">Project Zero Official Site</strong> .</h4>
   </div>
+
+<!-- Progress -->
+
+  <div class="swipe-full pb-2 mt-6 bg-white"> 
+    <div class="box flex justify-center" onclick="textBoxShow()">
+      <span class="animate-pulse"></span>
+    </div>
+  </div>
+
+</header>
+
+<!-- Images With Text -->
+
+<div class="text-box-full flex trans">
+
+<div class="text-box-1 w-80 h-80 bg-gradient-to-r from-red-500 to-blue-400 ml-10 rounded-lg">
+  <h1 class='t-b-1-f'><strong>Tailwind</strong></h1>
 </div>
 
+</div>
 
 <!-- Script Side -->
 
 <script src="js/index.js"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
+
+<script src="js/jquery.js"></script>
+
 
 </body>
 </html>
