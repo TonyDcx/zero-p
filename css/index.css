@@ -23,7 +23,6 @@ html , body{
 .cover-title{
     font-family: var(--second-font);
     font-size: 2rem;
-    text-decoration: underline;
     color: white;
 }
 
@@ -60,25 +59,87 @@ html , body{
     transition: 0.5s;
 }
 
-/* Text Box Pre-Design*/
+/* About Us Pre-Design */
+
+.about-us-full{
+
+}
+
+.about-us-full .title{
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--second-font);
+    text-decoration: underline;   
+}
+
+/* Text Box Pre-Design */
+
+.text-box-full{
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width:600px) {
+    .text-box-full{
+        display: inline;
+    }
+}
+
+.trans{
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        margin-top: -1000px;
+    }
+    
+    to{
+        opacity: 1;
+        margin-top: 2rem;
+    }
+}
+
+.close {
+    cursor: pointer;
+    font-size: 1.3rem;
+    opacity: 0.5;
+    transition: 0.1s;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.close:hover{
+    opacity: 1;
+}
 
 .t-b-1-f{
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--hand-font);
     font-weight: 300;
+    text-decoration: underline;
 }
 
-.trans{
-    animation: fadeIn 2s;
+.t-b-1-f-t{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--hand-font);
+    font-weight: 300;
 }
 
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-    }
-    
-    to{
-        opacity: 1;
-    }
+.t-b-1-s{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--hand-font);
+    font-weight: 300;
+    text-decoration: underline;
 }
+
+.t-b-1-s-t{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--hand-font);
+    font-weight: 300;
+}
+

@@ -13,9 +13,12 @@
 
 <!-- <link rel="stylesheet" href="css/bulma.min.css"> -->
 
+
+
 <link rel="stylesheet" href="css/tailwind.css">
 
 <link rel="stylesheet" href="css/index.css">
+
 
 </head>
 <body>
@@ -25,7 +28,7 @@
 <nav class="navigation ">
   <div class="nav">
     <ul class="nav-links flex justify-center bg-gradient-to-r from-red-500 to-blue-400">
-      <a href="#"><li class="link-f home mr-6 hover:underline">Home</li></a>
+      <a href="#"><li class="link-f home mr-6 underline">Home</li></a>
       <a href="#"><li class="link-f mr-6 hover:underline">About Us</li></a>
       <a href="#"><li class="link-f mr-6 hover:underline">Contact</li></a>
     </ul>
@@ -38,7 +41,7 @@
 
   <div class="cover-main">
     <h2 class="cover-title text-center">Project Zero . </h2>
-    <h4 class='cover-text mt-4 text-center'>Hello and Welcome to <strong class="p-z-o-s">Project Zero Official Site</strong> .</h4>
+    <h4 class='cover-text mt-4 text-center'>Hello and Welcome to <strong class="p-z-o-s animate-pulse">Project Zero Official Site</strong> .</h4>
   </div>
 
 <!-- Progress -->
@@ -48,32 +51,31 @@
       <span class="animate-pulse"></span>
     </div>
   </div>
-
 </header>
 
-<!-- Images With Text -->
+<!-- About Us -->
 
-<div class="text-box-full flex trans">
-
-<div class="text-box-1 w-80 h-80 bg-gradient-to-r from-red-500 to-blue-400 ml-10 rounded-lg">
-  <h1 class='t-b-1-f'><strong>Tailwind</strong></h1>
+<div class="about-us-full bg-gradient-to-r from-red-500 to-blue-400">
+  <h1 class="title">About Project Zero . </h1>
+  <div class="description">
+    <p class="about-us-text">Project Zero is a site based on all my knowledge . That means every new function learnt will be directly implemented somehow in the UI of the site.</p>
+  </div>
 </div>
 
+<!-- Text Box Alert -->
+
+<div class="text-box-full xl:float xl:justify-center trans">
+  <div class="text-box-1 xl:w-2/5 xl:h-2/5 bg-gradient-to-r from-red-500 to-blue-400 rounded-lg">
+    <p class="close" onclick="closeBox()">X</p>
+    <h1 class='t-b-1-f'><strong>Tailwind</strong></h1>
+    <br>
+    <h3 class="t-b-1-f-t">Modern Mobile-First Interface Made With Tailwind . <br><br> Check the readme file for more informations about tailwind and it's implementation . </h3>
+  </div>
 </div>
 
 <!-- Script Side -->
 
 <script src="js/index.js"></script>
 
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous">
-</script>
-
-<script src="js/jquery.js"></script>
-
-
 </body>
 </html>
-
