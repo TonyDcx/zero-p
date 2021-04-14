@@ -7,70 +7,88 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Project Zero</title>
 
 <!-- CSS and Bootstrap -->
 
 <!-- <link rel="stylesheet" href="css/bulma.min.css"> -->
 
-
-
 <link rel="stylesheet" href="css/tailwind.css">
 
 <link rel="stylesheet" href="css/index.css">
 
-
 </head>
+
 <body>
 
-<!-- Navbar -->
+<!-- Title Page -->
 
-<nav class="navigation ">
-  <div class="nav">
-    <ul class="nav-links flex justify-center bg-gradient-to-r from-red-500 to-blue-400">
-      <a href="#"><li class="link-f home mr-6 underline">Home</li></a>
-      <a href="#"><li class="link-f mr-6 hover:underline">About Us</li></a>
-      <a href="#"><li class="link-f mr-6 hover:underline">Contact</li></a>
-    </ul>
-  </div>
-</nav>
+<a id="title"></a>
+<div class="bg">
 
-<!-- Hero Cover -->
+<!-- Nav Bar -->
 
-<header class="hero pt-5 bg-gradient-to-r from-red-500 to-blue-400">
+<div class="list-full">
+  <div class="icons-navbar flex justify-center ">
+    <a href="#home"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-house-fill mr-4 icon-nav home" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+      <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+    </svg></a>
 
-  <div class="cover-main">
-    <h2 class="cover-title text-center">Project Zero . </h2>
-    <h4 class='cover-text mt-4 text-center'>Hello and Welcome to <strong class="p-z-o-s animate-pulse">Project Zero Official Site</strong> .</h4>
-  </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="25" fill="currentColor" class="bi bi-app-indicator mr-4 icon-nav" viewBox="0 0 16 16">
+      <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+      <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+    </svg>
 
-<!-- Progress -->
-
-  <div class="swipe-full pb-2 mt-6 bg-white"> 
-    <div class="box flex justify-center" onclick="textBoxShow()">
-      <span class="animate-pulse"></span>
-    </div>
-  </div>
-</header>
-
-<!-- About Us -->
-
-<div class="about-us-full bg-gradient-to-r from-red-500 to-blue-400">
-  <h1 class="title">About Project Zero . </h1>
-  <div class="description">
-    <p class="about-us-text">Project Zero is a site based on all my knowledge . That means every new function learnt will be directly implemented somehow in the UI of the site.</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="currentColor" class="bi bi-code-square icon-nav" viewBox="0 0 16 16">
+      <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+      <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+    </svg>
   </div>
 </div>
 
-<!-- Text Box Alert -->
+<div class="title-main">Project Zero .</div>
 
-<div class="text-box-full xl:float xl:justify-center trans">
-  <div class="text-box-1 xl:w-2/5 xl:h-2/5 bg-gradient-to-r from-red-500 to-blue-400 rounded-lg">
-    <p class="close" onclick="closeBox()">X</p>
-    <h1 class='t-b-1-f'><strong>Tailwind</strong></h1>
-    <br>
-    <h3 class="t-b-1-f-t">Modern Mobile-First Interface Made With Tailwind . <br><br> Check the readme file for more informations about tailwind and it's implementation . </h3>
-  </div>
+</div>
+
+<!-- Home Page -->
+
+<div class="bg-1">
+  <a id="home"></a>
+    <div class="list-full flex justify-center">
+      <a href="#texts">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24.8" fill="currentColor" class="bi bi-blockquote-left mr-2 icon-nav" viewBox="0 0 16 16">
+          <path d="M2.5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm5 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm-5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm.79-5.373c.112-.078.26-.17.444-.275L3.524 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282c.024-.203.065-.37.123-.498a1.38 1.38 0 0 1 .252-.37 1.94 1.94 0 0 1 .346-.298zm2.167 0c.113-.078.262-.17.445-.275L5.692 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282a1.75 1.75 0 0 1 .118-.492c.058-.13.144-.254.257-.375a1.94 1.94 0 0 1 .346-.3z"/>
+        </svg></a>
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="25" fill="currentColor" class="bi bi-app-indicator mr-4 icon-nav" viewBox="0 0 16 16">
+          <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+          <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+        </svg>
+    
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="currentColor" class="bi bi-code-square icon-nav" viewBox="0 0 16 16">
+          <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+          <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+        </svg>
+      </div>
+
+       <!-- Project Zero Infos -->
+    <div class="infos">
+      <h1 class="title-infos">What is Project Zero?</h1>
+      <p class="text-info">Project Zero is my main website . Here I will post all my work and informations about freelancing and jobs .</p>
+    </div>  
+
+<br><br><br>
+
+    <div class="infos">
+      <h1 class="title-infos">Who am I?</h1>
+      <p class="text-info">My name is Tony . I am a 17 years old Front-End developer from Romania .</p>
+    </div>  
+
+</div>
+<a id="texts"></a>
+<div class="bg-2">
+
 </div>
 
 <!-- Script Side -->
@@ -78,4 +96,5 @@
 <script src="js/index.js"></script>
 
 </body>
+
 </html>

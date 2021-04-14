@@ -8,138 +8,95 @@
 
 html , body{
     margin: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
 
-/* Navbar Pre-Design */
+/* Full Bg */
 
-.link-f{
+.bg {
+    background-image: url("https://papers.co/wallpaper/papers.co-mc71-wallpaper-milky-way-on-black-mountain-fuji-sky-36-3840x2400-4k-wallpaper.jpg");
+  
+    height: 100%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-1 {
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2018/12/29/inverted-blackwhite-mountains.-wallpaper_.jpg");
+  
+    height: 100%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-2{
+      
+  }
+
+
+/* Navbar */
+
+.icon-nav{
+    transition: 0.2s;
+    color: white;
+}
+
+.icon-nav:hover{
+    color: black;
+}
+
+/* Title Page */
+
+/* Title */
+
+.title-main{
+    text-align: center;
+    color: black;
+    padding-top: 2rem;
     font-family: var(--main-font);
-    font-size: 1.1rem;
-    color: white;
-}
-
-/* Hero Pre-Design */
-
-.cover-title{
-    font-family: var(--second-font);
     font-size: 2rem;
-    color: white;
-}
-
-.cover-text{
-    font-family: var(--second-font);
-    color: white;
-    font-size: 1.5rem;
-}
-
-.p-z-o-s{
     text-decoration: underline;
-    cursor: pointer;
-    color: black;
+    margin-top: 250px;
+    text-shadow: 7px 7px 60px white;
 }
 
-/* Swipe Design */
+/* Home Page */
 
-.text{
-    color: black;
-    font-family: var(--second-font);
-    font-size: 1rem;
-    cursor: pointer;
-    text-decoration: underline;
-}
+/* Media Queries */
 
-.box span{
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    transform: rotate(45deg);
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-/* About Us Pre-Design */
-
-.about-us-full{
-
-}
-
-.about-us-full .title{
-    text-align: center;
-    font-size: 2rem;
-    font-family: var(--second-font);
-    text-decoration: underline;   
-}
-
-/* Text Box Pre-Design */
-
-.text-box-full{
-    margin-top: 2rem;
-}
-
-@media only screen and (max-width:600px) {
-    .text-box-full{
-        display: inline;
+@media screen and (max-width:700px){
+    .title-infos{
+        font-size: 2px;
     }
 }
 
-.trans{
-    animation: fadeIn 1s;
-}
+    /* Title Page */
 
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-        margin-top: -1000px;
+    .title-infos{
+        text-align: center;
+        padding-top: 15px;
+        font-family: var(--main-font);
+        font-size: 1.5rem;
+        color: white;
+        font-style: italic;
+        text-decoration: underline;
+        text-shadow: 5px 5px 7px black;
     }
-    
-    to{
-        opacity: 1;
-        margin-top: 2rem;
+
+    /* Text Info */
+
+    .text-info{
+        text-align: center;
+        padding-top: 100px;
+        font-family: var(--main-font);
+        font-size: 1.5rem;
+        color: white;
+        font-style: italic;
+        text-shadow: 5px 5px 7px black;
     }
-}
-
-.close {
-    cursor: pointer;
-    font-size: 1.3rem;
-    opacity: 0.5;
-    transition: 0.1s;
-    text-align: right;
-    margin-right: 3%;
-}
-
-.close:hover{
-    opacity: 1;
-}
-
-.t-b-1-f{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: var(--hand-font);
-    font-weight: 300;
-    text-decoration: underline;
-}
-
-.t-b-1-f-t{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: var(--hand-font);
-    font-weight: 300;
-}
-
-.t-b-1-s{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: var(--hand-font);
-    font-weight: 300;
-    text-decoration: underline;
-}
-
-.t-b-1-s-t{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: var(--hand-font);
-    font-weight: 300;
-}
-
