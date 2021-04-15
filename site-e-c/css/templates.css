@@ -1,0 +1,73 @@
+/* Variables / Fonts */
+
+@import url(variables/fonts.css); /* Fonts */
+
+@import url(variables/variables.css); /* Variables */
+
+/* By Default */
+
+html , body{
+    margin: 0;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+    /* Class for all */
+
+    .shadows{
+        text-shadow: 5px 5px 15px black;
+    }
+
+    .trans{
+        animation: fadeIn 2s;
+    }
+    
+    @keyframes fadeIn {
+        from{
+            opacity:0;
+        }
+    
+        to{
+            opacity:1;
+        }
+    }
+
+    /* Pagination */
+
+    .full-1-p{
+        height:100%;
+    }
+
+    .full-2-p{
+    background-image: url("https://wallpaperaccess.com/full/2593066.jpg");
+  
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+/* Progress */
+
+.link-1{
+    font-family: var(--main-font);
+    transition: 3s;
+}
+
+.link-1:hover{
+    text-decoration: underline 1px solid white;
+}
+
+/* Projects */
+
+    /* Site 1 */
+    
+    .title-e-c{
+        text-align: center;
+        font-family: var(--main-font);
+        font-size: 2rem;
+        font-style: italic;
+        text-decoration: underline 5px white;
+    }
+
+    

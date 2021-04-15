@@ -13,6 +13,33 @@ html , body{
     overflow: hidden;
 }
 
+/* Constants */
+
+    /* fadeIn animation */
+
+    .trans{
+        animation-name: fadeIn;
+        animation-duration: 5s;
+    }
+
+    @keyframes fadeIn{
+        from{
+            opacity: 0;
+            margin-bottom: -2000px;
+        }
+
+        to{
+            opacity: 1;
+            margin-bottom: 0px;
+        }
+    }
+
+    /* text-shadow */
+
+    .shadows{
+        text-shadow: var(--shadow-main);
+    }
+
 /* Full Bg */
 
 .bg {
@@ -36,7 +63,13 @@ html , body{
   }
 
   .bg-2{
-      
+    background-image: url("https://cdn.wallpapersafari.com/72/22/eJpjwf.jpg");
+  
+    height: 100%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 
@@ -99,4 +132,17 @@ html , body{
         color: white;
         font-style: italic;
         text-shadow: 5px 5px 7px black;
+    }
+
+/* FAQ */
+    
+    /* Nav Color */
+
+    .icon-navs{
+        color: black;
+        transition: 0.5s;
+    }
+
+    .icon-navs:hover{
+        color: silver;
     }
